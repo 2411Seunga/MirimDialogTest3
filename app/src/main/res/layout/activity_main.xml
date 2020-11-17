@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+        <RadioButton
+            android:id="@+id/radio_puppy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강아지"
+            android:textSize="15sp"
+            />
+        <RadioButton
+            android:id="@+id/radio_mountain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="산"
+            android:textSize="15sp"
+            />
+        <RadioButton
+            android:id="@+id/radio_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="꽃"
+            android:textSize="15sp"
+            />
+        <RadioButton
+            android:id="@+id/radio_howl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하울"
+            android:textSize="15sp"
+            />
+    </RadioGroup>
+
+</LinearLayout>
