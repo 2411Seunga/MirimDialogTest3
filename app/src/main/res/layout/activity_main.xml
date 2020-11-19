@@ -18,6 +18,8 @@
             android:layout_height="wrap_content"
             android:text="강아지"
             android:textSize="15sp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
             />
         <RadioButton
             android:id="@+id/radio_mountain"
@@ -25,6 +27,7 @@
             android:layout_height="wrap_content"
             android:text="산"
             android:textSize="15sp"
+            android:layout_marginBottom="15dp"
             />
         <RadioButton
             android:id="@+id/radio_flower"
@@ -32,6 +35,7 @@
             android:layout_height="wrap_content"
             android:text="꽃"
             android:textSize="15sp"
+            android:layout_marginBottom="15dp"
             />
         <RadioButton
             android:id="@+id/radio_howl"
@@ -39,7 +43,36 @@
             android:layout_height="wrap_content"
             android:text="하울"
             android:textSize="15sp"
+            android:layout_marginBottom="15dp"
+            />
+        <Button
+            android:id="@+id/btn_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사진 보기"
             />
     </RadioGroup>
+
+    <ImageView
+        android:id="@+id/puppy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/puppy"/>
+    <ImageView
+        android:id="@+id/mountain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mountain"/>
+    <ImageView
+        android:id="@+id/howl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/howl"/>
+    <ImageView
+        android:id="@+id/flower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flower"/>
+
 
 </LinearLayout>
