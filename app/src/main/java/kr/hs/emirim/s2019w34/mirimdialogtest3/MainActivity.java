@@ -39,20 +39,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     View.OnClickListener radioListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            switch (v.getId()) {
-                case R.id.radio_puppy:
-                    puppy.setImageResource(R.drawable.puppy);
-                case R.id.radio_mountain:
-                    mountain.setImageResource(R.drawable.mountain);
-                case R.id.radio_howl:
-                    howl.setImageResource(R.drawable.howl);
-                case R.id.radio_flower:
-                    flower.setImageResource(R.drawable.flower);
-            }
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.radio_puppy:
+                puppy.setImageResource(R.drawable.puppy);
+            case R.id.radio_mountain:
+                mountain.setImageResource(R.drawable.mountain);
+            case R.id.radio_howl:
+                howl.setImageResource(R.drawable.howl);
+            case R.id.radio_flower:
+                flower.setImageResource(R.drawable.flower);
         }
-    };
+    }
+};
 
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
